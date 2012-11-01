@@ -1,0 +1,10 @@
+[Unit]
+Description=An automation script to randomize MAC addresses
+Before=wicd.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/macchanger.sh
+
+[Install]
+Alias=multi-user.target.wants/macchanger.service
