@@ -1,5 +1,5 @@
 [Unit]
-Description=An automation script to randomize MAC addresses
+Description=Randomize MAC address at boot time with macchanger
 Before=wicd.service
 
 [Service]
